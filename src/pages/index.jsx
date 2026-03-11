@@ -273,9 +273,15 @@ export default function PapaJWebsite() {
       <section className="sec" id="download" style={{ paddingTop: 0 }}>
         <div className="dl-wrap reveal">
           <div>
-            <h2 style={{ marginBottom: 10 }} onClick={() => window.location.href = "https://papajlaundryshop.online/download/app-release.apk"}>
-              Ready to Use. Just Download &amp; Log In.
-            </h2>
+            <a 
+  href="https://papajlaundryshop.online/download/app-release.apk"
+  download
+  style={{ textDecoration: "none" }}
+>
+  <h2 style={{ marginBottom: 10, cursor: "pointer" }}>
+    Ready to Use. Just Download & Log In.
+  </h2>
+</a>
             <p className="dl-sub">
               PapaJ was built for this business. Download the app, sign in with the admin account,
               and every one of your 11 branches is immediately visible.
