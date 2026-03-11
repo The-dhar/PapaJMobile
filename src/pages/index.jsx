@@ -273,7 +273,7 @@ export default function PapaJWebsite() {
       <section className="sec" id="download" style={{ paddingTop: 0 }}>
         <div className="dl-wrap reveal">
           <div>
-            <h2 style={{ marginBottom: 10 }} href="https://papajlaundryshop.online/download/app-release.apk">
+            <h2 style={{ marginBottom: 10 }} onClick={() => window.location.href = "https://papajlaundryshop.online/download/app-release.apk"}>
               Ready to Use. Just Download &amp; Log In.
             </h2>
             <p className="dl-sub">
